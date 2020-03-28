@@ -152,6 +152,9 @@ let app;
                     case "login":
                         LoadPageContent("mainContent", "./Views/content/login.html", DisplayLoginContent);
                         break;
+                    case "taskList":
+                        LoadPageContent("mainContent", "./Views/content/taskList.html", DisplayLoginContent);
+                        break;
                     
                 }
             }); 
